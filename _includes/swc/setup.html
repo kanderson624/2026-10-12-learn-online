@@ -4,6 +4,10 @@
 {% include warning-curriculum.html %}
 {% endunless %}
 
+The setup instructions for the Data Carpentry Ecology workshops (with R)
+  can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html">
+    the workshop overview site</a>.
+
 {% include install_instructions/shell.html %}
 
 <div class="info alert alert-info">
@@ -21,8 +25,6 @@
 {% elsif site.flavor == "python" %}
 {% include install_instructions/python.html %}
 {% elsif site.flavor == "FIXME" %}
-{% include install_instructions/r.html %}
-{% include install_instructions/python.html %}
 {% else %}
 {% include warning-flavor.html %}
 {% endif %}
